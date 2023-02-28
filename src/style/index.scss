@@ -1,0 +1,49 @@
+// 全局样式
+@import "./element-plus.scss";
+body {
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB",
+    "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+}
+
+
+html {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+}
+
+.textI2{
+  text-indent: 2em;
+}
+
+.mt-10{
+  margin-top: 10px;
+}
+.mr-10{
+  margin-right: 10px;
+}
+.mb-10{
+  margin-bottom: 10px;
+}
+.ml-10{
+  margin-left: 10px;
+}
+
+
+.tac{
+  text-align: center;
+}
+.tal{
+  text-align: left;
+}
+.tar{
+  text-align: left;
+}
